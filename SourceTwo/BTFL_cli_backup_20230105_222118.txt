@@ -1,0 +1,181 @@
+defaults nosave
+
+
+# version
+# Betaflight / STM32F405 (S405) 4.3.2 Nov 28 2022 / 07:26:30 (60c9521) MSP API: 1.44
+# config: manufacturer_id: DIAT, board_name: FURYF4OSD, version: 522a29d8, date: 2022-11-18T01:03:24Z
+
+# start the command batch
+batch start
+
+# reset configuration to default settings
+defaults nosave
+
+board_name FURYF4OSD
+manufacturer_id DIAT
+mcu_id 002e002c3231510638373639
+signature 
+
+# feature
+feature -RX_PARALLEL_PWM
+feature GPS
+feature TELEMETRY
+
+# serial
+serial 0 2048 115200 57600 0 115200
+serial 2 2 115200 57600 0 115200
+serial 5 64 115200 57600 0 115200
+
+# beeper
+beeper -GYRO_CALIBRATED
+beeper -RX_LOST
+beeper -RX_LOST_LANDING
+beeper -DISARMING
+beeper -ARMING
+beeper -ARMING_GPS_FIX
+beeper -BAT_CRIT_LOW
+beeper -BAT_LOW
+beeper -GPS_STATUS
+beeper -ACC_CALIBRATION
+beeper -ACC_CALIBRATION_FAIL
+beeper -DISARM_REPEAT
+beeper -ARMED
+beeper -SYSTEM_INIT
+beeper -ON_USB
+beeper -BLACKBOX_ERASE
+beeper -CRASH_FLIP
+beeper -CAM_CONNECTION_OPEN
+beeper -CAM_CONNECTION_CLOSE
+beeper -RC_SMOOTHING_INIT_FAIL
+
+# beacon
+beacon RX_SET
+
+# aux
+aux 0 0 0 1825 2100 0 0
+aux 1 1 1 900 1075 0 0
+aux 2 2 1 1300 1700 0 0
+aux 3 46 4 1700 2100 0 0
+aux 4 13 3 1900 2100 0 0
+aux 5 35 2 1850 2100 0 0
+aux 6 36 6 1825 2100 0 0
+aux 7 39 7 900 1300 0 0
+aux 8 49 2 1300 1700 0 0
+
+# vtxtable
+vtxtable bands 5
+vtxtable channels 8
+vtxtable band 1 BOSCAM_A A FACTORY 5865 5845 5825 5805 5785 5765 5745 5725
+vtxtable band 2 BOSCAM_B B FACTORY 5733 5752 5771 5790 5809 5828 5847 5866
+vtxtable band 3 BOSCAM_E E FACTORY 5705 5685 5665 5645 5885 5905 5925 5945
+vtxtable band 4 FATSHARK F FACTORY 5740 5760 5780 5800 5820 5840 5860 5880
+vtxtable band 5 RACEBAND R FACTORY 5658 5695 5732 5769 5806 5843 5880 5917
+vtxtable powerlevels 3
+vtxtable powervalues 14 20 26
+vtxtable powerlabels 25 100 400
+
+# rxfail
+rxfail 11 s 750
+
+# master
+set gyro_lpf1_static_hz = 200
+set gyro_lpf2_static_hz = 400
+set dyn_notch_count = 4
+set dyn_notch_q = 450
+set dyn_notch_min_hz = 60
+set gyro_lpf1_dyn_min_hz = 200
+set gyro_lpf1_dyn_max_hz = 400
+set acc_calibration = -21,-26,38,1
+set mag_hardware = NONE
+set baro_hardware = NONE
+set serialrx_provider = CRSF
+set blackbox_device = NONE
+set dshot_bidir = ON
+set motor_pwm_protocol = DSHOT300
+set bat_capacity = 1500
+set beeper_dshot_beacon_tone = 4
+set yaw_motors_reversed = ON
+set small_angle = 180
+set gps_provider = UBLOX
+set gps_sbas_mode = AUTO
+set gps_set_home_point_once = ON
+set gps_rescue_sanity_checks = RESCUE_SANITY_FS_ONLY
+set gps_rescue_min_sats = 6
+set gps_rescue_allow_arming_without_fix = ON
+set pid_process_denom = 2
+set simplified_gyro_filter_multiplier = 80
+set report_cell_voltage = ON
+set osd_warn_core_temp = OFF
+set osd_warn_rc_smoothing = OFF
+set osd_warn_no_gps_rescue = OFF
+set osd_warn_gps_rescue_disabled = OFF
+set osd_warn_link_quality = ON
+set osd_rssi_alarm = 90
+set osd_link_quality_pos = 2529
+set osd_rssi_dbm_pos = 451
+set osd_tim_2_pos = 2549
+set osd_remaining_time_estimate_pos = 2518
+set osd_vtx_channel_pos = 2069
+set osd_current_pos = 2535
+set osd_mah_drawn_pos = 2541
+set osd_gps_speed_pos = 2112
+set osd_gps_sats_pos = 2048
+set osd_home_dir_pos = 2062
+set osd_home_dist_pos = 2080
+set osd_pidrate_profile_pos = 138
+set osd_avg_cell_voltage_pos = 2475
+set osd_pid_profile_name_pos = 99
+set osd_stat_max_spd = OFF
+set osd_stat_endbatt = ON
+set osd_stat_battery = ON
+set osd_stat_max_g_force = ON
+set vtx_band = 5
+set vtx_channel = 1
+set vtx_power = 3
+set vtx_low_power_disarm = ON
+set vtx_freq = 5658
+set gyro_1_align_yaw = 1800
+set rpm_filter_min_hz = 50
+
+profile 0
+
+# profile 0
+set d_pitch = 20
+set d_roll = 18
+set d_min_roll = 13
+set d_min_pitch = 15
+set simplified_d_gain = 45
+
+profile 1
+
+profile 2
+
+# restore original profile selection
+profile 0
+
+rateprofile 0
+
+# rateprofile 0
+set rates_type = BETAFLIGHT
+set roll_rc_rate = 85
+set pitch_rc_rate = 85
+set yaw_rc_rate = 85
+set roll_srate = 60
+set pitch_srate = 60
+set yaw_srate = 60
+set tpa_rate = 70
+
+rateprofile 1
+
+rateprofile 2
+
+rateprofile 3
+
+rateprofile 4
+
+rateprofile 5
+
+# restore original rateprofile selection
+rateprofile 0
+
+# save configuration

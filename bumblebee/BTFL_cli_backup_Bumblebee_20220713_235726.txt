@@ -1,0 +1,234 @@
+defaults nosave
+
+
+# version
+# Betaflight / STM32F7X2 (S7X2) 4.3.1 Jul 13 2022 / 03:36:10 (8d4f005) MSP API: 1.44
+# config: manufacturer_id: DIAT, board_name: MAMBAF722, version: edcd244b, date: 2022-06-29T02:24:46Z
+
+# start the command batch
+batch start
+
+# reset configuration to default settings
+defaults nosave
+
+board_name MAMBAF722
+manufacturer_id DIAT
+mcu_id 003100443237511634363730
+signature 
+
+# name: Bumblebee
+
+# feature
+feature -SOFTSERIAL
+feature -RX_PARALLEL_PWM
+feature RSSI_ADC
+
+# serial
+serial 0 68 115200 57600 0 115200
+serial 2 8192 115200 57600 0 115200
+serial 3 32 115200 57600 0 115200
+
+# beeper
+beeper -GYRO_CALIBRATED
+beeper -RX_LOST
+beeper -RX_LOST_LANDING
+beeper -ARMING_GPS_FIX
+beeper -BAT_CRIT_LOW
+beeper -BAT_LOW
+beeper -GPS_STATUS
+beeper -ACC_CALIBRATION
+beeper -ACC_CALIBRATION_FAIL
+beeper -READY_BEEP
+beeper -DISARM_REPEAT
+beeper -ARMED
+beeper -ON_USB
+beeper -BLACKBOX_ERASE
+beeper -CAM_CONNECTION_OPEN
+beeper -CAM_CONNECTION_CLOSE
+beeper -RC_SMOOTHING_INIT_FAIL
+
+# beacon
+beacon RX_SET
+
+# aux
+aux 0 0 0 1800 2100 0 0
+aux 1 1 1 1675 2100 0 0
+aux 2 2 1 1300 1700 0 0
+aux 3 13 3 1700 2100 0 0
+aux 4 35 2 1700 2100 0 0
+
+# vtxtable
+vtxtable bands 6
+vtxtable channels 8
+vtxtable band 1 BOSCAM_A A CUSTOM  5865 5845 5825 5805 5785 5765 5745 5725
+vtxtable band 2 BOSCAM_B B CUSTOM  5733 5752 5771 5790 5809 5828 5847 5866
+vtxtable band 3 BOSCAM_E E CUSTOM  5705 5685 5665    0 5885 5905    0    0
+vtxtable band 4 FATSHARK F CUSTOM  5740 5760 5780 5800 5820 5840 5860 5880
+vtxtable band 5 RACEBAND R CUSTOM  5658 5695 5732 5769 5806 5843 5880 5917
+vtxtable band 6 IMD6     I CUSTOM  5732 5765 5828 5840 5866 5740    0    0
+vtxtable powerlevels 5
+vtxtable powervalues 25 100 200 400 600
+vtxtable powerlabels 25 100 200 400 600
+
+# rxfail
+rxfail 3 h
+
+# master
+set dyn_notch_q = 200
+set dyn_notch_min_hz = 90
+set acc_calibration = -131,11,-321,1
+set blackbox_device = SERIAL
+set dshot_bidir = ON
+set failsafe_delay = 5
+set vbat_min_cell_voltage = 340
+set current_meter = ESC
+set ibata_scale = 330
+set yaw_motors_reversed = ON
+set deadband = 3
+set yaw_deadband = 3
+set pid_process_denom = 2
+set report_cell_voltage = ON
+set osd_warn_visual_beeper = OFF
+set osd_warn_esc_fail = OFF
+set osd_warn_core_temp = OFF
+set osd_warn_rc_smoothing = OFF
+set osd_warn_launch_control = OFF
+set osd_warn_no_gps_rescue = OFF
+set osd_warn_gps_rescue_disabled = OFF
+set osd_warn_rssi = ON
+set osd_rssi_alarm = 35
+set osd_cap_alarm = 595
+set osd_vbat_pos = 463
+set osd_rssi_pos = 2498
+set osd_tim_2_pos = 2551
+set osd_g_force_pos = 2521
+set osd_throttle_pos = 440
+set osd_current_pos = 2529
+set osd_mah_drawn_pos = 2536
+set osd_craft_name_pos = 2507
+set osd_warnings_pos = 2441
+set osd_avg_cell_voltage_pos = 2543
+set osd_stat_max_spd = OFF
+set osd_stat_endbatt = ON
+set osd_stat_battery = ON
+set osd_stat_bbox = OFF
+set osd_stat_bb_no = OFF
+set osd_stat_max_g_force = ON
+set vtx_band = 5
+set vtx_channel = 1
+set vtx_power = 1
+set vtx_freq = 5658
+set gyro_1_align_yaw = 1800
+set name = Bumblebee
+
+profile 0
+
+# profile 0
+set p_pitch = 60
+set i_pitch = 60
+set d_pitch = 10
+set f_pitch = 60
+set p_roll = 48
+set i_roll = 60
+set d_roll = 7
+set f_roll = 60
+set p_yaw = 75
+set i_yaw = 60
+set f_yaw = 60
+set angle_level_strength = 25
+set level_limit = 25
+set d_min_roll = 4
+set d_min_pitch = 6
+set simplified_pids_mode = OFF
+
+profile 1
+
+# profile 1
+set p_pitch = 75
+set i_pitch = 60
+set d_pitch = 31
+set f_pitch = 60
+set p_roll = 60
+set i_roll = 60
+set d_roll = 22
+set f_roll = 60
+set p_yaw = 94
+set i_yaw = 60
+set f_yaw = 60
+set d_min_roll = 13
+set d_min_pitch = 18
+
+profile 2
+
+# profile 2
+set p_pitch = 94
+set i_pitch = 75
+set d_pitch = 20
+set f_pitch = 60
+set p_roll = 75
+set i_roll = 75
+set d_roll = 14
+set f_roll = 60
+set p_yaw = 118
+set i_yaw = 75
+set f_yaw = 60
+set d_min_roll = 8
+set d_min_pitch = 11
+
+# restore original profile selection
+profile 0
+
+rateprofile 0
+
+# rateprofile 0
+set thr_mid = 0
+set thr_expo = 25
+set roll_rc_rate = 122
+set pitch_rc_rate = 122
+set yaw_rc_rate = 81
+set roll_expo = 41
+set pitch_expo = 41
+set yaw_expo = 41
+set roll_srate = 73
+set pitch_srate = 73
+set yaw_srate = 73
+
+rateprofile 1
+
+# rateprofile 1
+set thr_mid = 0
+set thr_expo = 25
+set rates_type = BETAFLIGHT
+set roll_rc_rate = 100
+set pitch_rc_rate = 100
+set yaw_rc_rate = 100
+set roll_srate = 70
+set pitch_srate = 70
+set yaw_srate = 70
+
+rateprofile 2
+
+# rateprofile 2
+set thr_mid = 0
+set roll_rc_rate = 46
+set pitch_rc_rate = 46
+set yaw_rc_rate = 31
+set roll_expo = 41
+set pitch_expo = 41
+set yaw_expo = 41
+set roll_srate = 73
+set pitch_srate = 73
+set yaw_srate = 73
+set throttle_limit_type = SCALE
+set throttle_limit_percent = 50
+
+rateprofile 3
+
+rateprofile 4
+
+rateprofile 5
+
+# restore original rateprofile selection
+rateprofile 1
+
+# save configuration
