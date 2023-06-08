@@ -1,0 +1,120 @@
+defaults nosave
+
+
+# version
+# Betaflight / STM32F7X2 (S7X2) 4.4.1 Apr 10 2023 / 21:12:46 (e43d591b2) MSP API: 1.45
+
+# config: YES
+
+# start the command batch
+batch start
+
+# reset configuration to default settings
+defaults nosave
+
+board_name TMOTORF7
+manufacturer_id TMTR
+mcu_id 002a00235931500720393539
+signature 
+
+# serial
+serial 0 64 115200 57600 0 115200
+serial 1 131073 115200 57600 0 115200
+
+# beacon
+beacon RX_SET
+
+# aux
+aux 0 0 0 1700 2100 0 0
+aux 1 13 3 1700 2100 0 0
+aux 2 35 2 1700 2100 0 0
+aux 3 36 6 1700 2100 0 0
+aux 4 49 2 1300 1700 0 0
+aux 5 51 2 900 1700 0 0
+
+# vtxtable
+vtxtable bands 6
+vtxtable channels 8
+vtxtable band 1 BOSCAM_A A FACTORY    0    0    0    0    0    0    0    0
+vtxtable band 2 BOSCAM_B B FACTORY    0    0    0    0    0    0    0    0
+vtxtable band 3 BOSCAM_E E FACTORY    0    0    0    0    0    0    0    0
+vtxtable band 4 FATSHARK F FACTORY    0 5760    0 5800    0    0    0    0
+vtxtable band 5 RACEBAND R FACTORY 5658 5695 5732 5769 5806 5843 5880 5917
+vtxtable band 6 IMD6     I FACTORY    0    0    0    0    0    0    0    0
+vtxtable powerlevels 3
+vtxtable powervalues 14 23 0
+vtxtable powerlabels 25 200 0
+
+# master
+set dyn_notch_count = 1
+set dyn_notch_q = 500
+set acc_calibration = -3,-23,15,1
+set rc_smoothing_auto_factor = 25
+set rc_smoothing_auto_factor_throttle = 25
+set blackbox_device = NONE
+set dshot_bidir = ON
+set motor_pwm_protocol = DSHOT600
+set yaw_motors_reversed = ON
+set small_angle = 180
+set report_cell_voltage = ON
+set osd_warn_bitmask = 8063
+set osd_link_quality_pos = 2531
+set osd_throttle_pos = 3180
+set osd_vtx_channel_pos = 3080
+set osd_warnings_pos = 14645
+set osd_avg_cell_voltage_pos = 2519
+set osd_rate_profile_name_pos = 3115
+set osd_pid_profile_name_pos = 3148
+set osd_displayport_device = MSP
+set osd_canvas_width = 50
+set osd_canvas_height = 18
+set vtx_band = 5
+set vtx_channel = 1
+set vtx_power = 1
+set vtx_freq = 5658
+set vcd_video_system = HD
+
+profile 0
+
+# profile 0
+set profile_name = 4s
+set auto_profile_cell_count = 4
+set feedforward_averaging = 2_POINT
+set feedforward_smooth_factor = 65
+set feedforward_jitter_factor = 3
+set feedforward_boost = 18
+
+profile 1
+
+# profile 1
+set profile_name = 6s
+set motor_output_limit = 60
+set auto_profile_cell_count = 6
+
+profile 2
+
+profile 3
+
+# restore original profile selection
+profile 0
+
+rateprofile 0
+
+# rateprofile 0
+set roll_rc_rate = 50
+set pitch_rc_rate = 50
+set yaw_rc_rate = 50
+set roll_srate = 50
+set pitch_srate = 50
+set yaw_srate = 50
+
+rateprofile 1
+
+rateprofile 2
+
+rateprofile 3
+
+# restore original rateprofile selection
+rateprofile 0
+
+# save configuration
