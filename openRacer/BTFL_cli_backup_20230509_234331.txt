@@ -1,0 +1,151 @@
+defaults nosave
+
+
+# version
+# Betaflight / STM32F7X2 (S7X2) 4.4.1 Apr 10 2023 / 23:02:40 (e43d591b2) MSP API: 1.45
+
+# config: YES
+
+# start the command batch
+batch start
+
+# reset configuration to default settings
+defaults nosave
+
+board_name HGLRCF722
+manufacturer_id HGLR
+mcu_id 002600365631500220303937
+signature 
+
+# feature
+feature OSD
+
+# serial
+serial 0 131073 115200 57600 0 115200
+serial 1 64 115200 57600 0 115200
+
+# beacon
+beacon RX_SET
+
+# aux
+aux 0 0 0 1700 2100 0 0
+aux 1 13 3 1700 2100 0 0
+aux 2 35 2 1700 2100 0 0
+aux 3 36 6 1700 2100 0 0
+aux 4 49 2 1300 1700 0 0
+aux 5 51 2 900 1800 0 0
+
+# vtxtable
+vtxtable bands 6
+vtxtable channels 8
+vtxtable band 1 BOSCAM_A A FACTORY    0    0    0    0    0    0    0    0
+vtxtable band 2 BOSCAM_B B FACTORY    0    0    0    0    0    0    0    0
+vtxtable band 3 BOSCAM_E E FACTORY    0    0    0    0    0    0    0    0
+vtxtable band 4 FATSHARK F FACTORY    0 5760    0 5800    0    0    0    0
+vtxtable band 5 RACEBAND R FACTORY 5658 5695 5732 5769 5806 5843 5880 5917
+vtxtable band 6 IMD6     I FACTORY    0    0    0    0    0    0    0    0
+vtxtable powerlevels 3
+vtxtable powervalues 14 23 0
+vtxtable powerlabels 25 200 0
+
+# master
+set gyro_lpf1_static_hz = 0
+set dyn_notch_count = 2
+set dyn_notch_q = 450
+set dyn_notch_min_hz = 125
+set dyn_notch_max_hz = 650
+set gyro_lpf1_dyn_min_hz = 0
+set gyro_lpf1_dyn_max_hz = 0
+set acc_lpf_hz = 10
+set acc_calibration = 14,-206,-4108,1
+set rc_smoothing_auto_factor = 25
+set rc_smoothing_auto_factor_throttle = 25
+set blackbox_device = NONE
+set dshot_bidir = ON
+set beeper_dshot_beacon_tone = 5
+set yaw_motors_reversed = ON
+set small_angle = 180
+set simplified_gyro_filter = OFF
+set report_cell_voltage = ON
+set osd_warn_bitmask = 8063
+set osd_link_quality_pos = 2592
+set osd_tim_2_pos = 3619
+set osd_vtx_channel_pos = 3081
+set osd_warnings_pos = 14610
+set osd_avg_cell_voltage_pos = 2485
+set osd_rate_profile_name_pos = 3148
+set osd_pid_profile_name_pos = 3117
+set osd_stat_bitmask = 3307052
+set osd_displayport_device = MSP
+set osd_canvas_width = 50
+set osd_canvas_height = 18
+set vtx_band = 5
+set vtx_channel = 1
+set vtx_power = 3
+set vtx_freq = 5658
+set vcd_video_system = HD
+set rpm_filter_fade_range_hz = 100
+
+profile 0
+
+# profile 0
+set dterm_lpf1_dyn_expo = 7
+set iterm_relax_cutoff = 20
+set iterm_limit = 500
+set pidsum_limit_yaw = 1000
+set throttle_boost = 2
+set p_pitch = 41
+set i_pitch = 89
+set d_pitch = 40
+set f_pitch = 137
+set p_roll = 38
+set i_roll = 81
+set d_roll = 35
+set f_roll = 125
+set d_min_roll = 21
+set d_min_pitch = 23
+set feedforward_averaging = 2_POINT
+set feedforward_smooth_factor = 65
+set feedforward_jitter_factor = 3
+set feedforward_boost = 18
+set feedforward_max_rate_limit = 100
+set simplified_pids_mode = RP
+set simplified_i_gain = 120
+set simplified_d_gain = 70
+set simplified_pi_gain = 85
+set simplified_dmax_gain = 200
+set simplified_feedforward_gain = 105
+set simplified_pitch_pi_gain = 105
+set tpa_rate = 70
+set tpa_breakpoint = 1250
+
+profile 1
+
+profile 2
+
+profile 3
+
+# restore original profile selection
+profile 0
+
+rateprofile 0
+
+# rateprofile 0
+set rateprofile_name = Race
+set roll_rc_rate = 50
+set pitch_rc_rate = 50
+set yaw_rc_rate = 50
+set roll_srate = 50
+set pitch_srate = 50
+set yaw_srate = 50
+
+rateprofile 1
+
+rateprofile 2
+
+rateprofile 3
+
+# restore original rateprofile selection
+rateprofile 0
+
+# save configuration
