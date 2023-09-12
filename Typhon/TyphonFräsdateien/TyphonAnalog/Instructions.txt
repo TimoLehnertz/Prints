@@ -1,0 +1,5 @@
+4 x T_v7_Shorty_Arm_5_Inch_6mm.dxf
+2 x T_v8_Arm_Lock_6_Inch_2mm.dxf
+1 x T_v8_Bottom_Plate_L.dxf
+1 x T_v8_Mid_Plate_L.dxf
+1 x T_v8_Top_Plate_L.dxf
