@@ -1,0 +1,16 @@
+return {
+    boardIdentifier = "S7X2",
+    hardwareRevision = 0,
+    boardType = 2,
+    targetCapabilities = 55,
+    targetName = "STM32F7X2",
+    boardName = "FOXEERF722V4",
+    manufacturerId = "FOXE",
+    signature = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, },
+    mcuTypeId = 2,
+    configurationState = 64,
+    gyroSampleRateHz = 8000,
+    configurationProblems = 0,
+    spiRegisteredDeviceCount = 1,
+    i2cRegisteredDeviceCount = 0,
+}

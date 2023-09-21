@@ -1,0 +1,5 @@
+2022-12-23 17:41:52 ?:0: attempt to yield across a C-call boundary
+2022-12-23 17:41:55 ?:0: attempt to call a nil value
+2022-12-23 17:43:42 ?:0: attempt to call a nil value
+2022-12-23 18:21:43 ?:0: attempt to yield across a C-call boundary
+2022-12-23 20:45:46 ?:0: attempt to call a nil value

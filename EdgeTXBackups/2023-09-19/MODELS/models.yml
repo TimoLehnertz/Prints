@@ -1,0 +1,9 @@
+- "Mpdels":
+  - filename: "model1.yml"
+    name: "copter basic"
+  - filename: "model10.yml"
+    name: "open racer"
+  - filename: "model11.yml"
+    name: "typhoon"
+  - filename: "model12.yml"
+    name: "MODEL12"
