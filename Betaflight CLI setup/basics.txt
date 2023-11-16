@@ -5,3 +5,5 @@ set report_cell_voltage = ON
 set serialrx_provider = CRSF
 set stats_min_armed_time_s = -1
 set motor_pwm_protocol = DSHOT600
+blackbox_device = NONE
+feature TELEMETRY
