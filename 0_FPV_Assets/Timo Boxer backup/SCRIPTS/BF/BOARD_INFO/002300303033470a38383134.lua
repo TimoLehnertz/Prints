@@ -1,0 +1,16 @@
+return {
+    boardIdentifier = "S405",
+    hardwareRevision = 0,
+    boardType = 2,
+    targetCapabilities = 67,
+    targetName = "STM32F405",
+    boardName = "SPEEDYBEEF405MINI",
+    manufacturerId = "SPBE",
+    signature = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, },
+    mcuTypeId = 1,
+    configurationState = 64,
+    gyroSampleRateHz = 8000,
+    configurationProblems = 0,
+    spiRegisteredDeviceCount = 1,
+    i2cRegisteredDeviceCount = 1,
+}
