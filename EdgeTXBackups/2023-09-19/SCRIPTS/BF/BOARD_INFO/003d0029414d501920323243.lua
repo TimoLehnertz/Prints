@@ -1,0 +1,16 @@
+return {
+    boardIdentifier = "S405",
+    hardwareRevision = 0,
+    boardType = 2,
+    targetCapabilities = 55,
+    targetName = "STM32F405",
+    boardName = "BETAFLIGHTF4",
+    manufacturerId = "FPVM",
+    signature = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, },
+    mcuTypeId = 2,
+    configurationState = 0,
+    gyroSampleRateHz = 0,
+    configurationProblems = 0,
+    spiRegisteredDeviceCount = 0,
+    i2cRegisteredDeviceCount = 0,
+}

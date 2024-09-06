@@ -1,0 +1,1 @@
+set osd_displayport_device = MSP

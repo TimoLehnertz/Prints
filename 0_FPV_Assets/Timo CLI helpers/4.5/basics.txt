@@ -1,0 +1,20 @@
+set small_angle = 180
+set yaw_motors_reversed = ON
+set report_cell_voltage = ON
+set serialrx_provider = CRSF
+set stats_min_armed_time_s = -1
+set motor_pwm_protocol = DSHOT600
+blackbox_device = NONE
+feature TELEMETRY
+
+# beeper
+beeper -GYRO_CALIBRATED
+beeper -DISARMING
+beeper -ARMING
+beeper -DISARM_REPEAT
+beeper -ARMED
+beeper -ON_USB
+beeper -CRASH_FLIP
+
+# beacon
+beacon RX_SET

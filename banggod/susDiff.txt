@@ -1,0 +1,107 @@
+# 
+# Building AutoComplete Cache ... Done!
+# 
+# diff
+
+# version
+# Betaflight / STM32F405 (S405) 4.3.2 Nov 28 2022 / 07:26:30 (60c9521) MSP API: 1.44
+# config: manufacturer_id: DIAT, board_name: FURYF4OSD, version: 522a29d8, date: 2022-11-18T01:03:24Z
+
+# start the command batch
+batch start
+
+board_name FURYF4OSD
+manufacturer_id DIAT
+
+# name: Freeman_Banggod
+
+# feature
+feature -RX_PARALLEL_PWM
+feature TELEMETRY
+
+# serial
+serial 2 2048 115200 57600 0 115200
+serial 5 64 115200 57600 0 115200
+
+# beeper
+beeper -GYRO_CALIBRATED
+beeper -RX_LOST_LANDING
+beeper -DISARMING
+beeper -ARMING
+beeper -ARMING_GPS_FIX
+beeper -GPS_STATUS
+beeper -RX_SET
+beeper -ACC_CALIBRATION
+beeper -ACC_CALIBRATION_FAIL
+beeper -READY_BEEP
+beeper -DISARM_REPEAT
+beeper -ARMED
+beeper -ON_USB
+beeper -BLACKBOX_ERASE
+beeper -CAM_CONNECTION_OPEN
+beeper -CAM_CONNECTION_CLOSE
+beeper -RC_SMOOTHING_INIT_FAIL
+
+# beacon
+beacon RX_LOST
+beacon RX_SET
+
+# aux
+aux 0 0 0 1700 2100 0 0
+aux 1 1 1 900 1200 0 0
+aux 2 2 1 1200 1600 0 0
+aux 3 13 3 1775 2100 0 0
+aux 4 35 2 1700 2100 0 0
+aux 5 36 6 1725 2100 0 0
+
+# vtxtable
+vtxtable bands 5
+vtxtable channels 8
+vtxtable band 1 BOSCAM_A A FACTORY 5865 5845 5825 5805 5785 5765 5745 5725
+vtxtable band 2 BOSCAM_B B FACTORY 5733 5752 5771 5790 5809 5828 5847 5866
+vtxtable band 3 BOSCAM_E E FACTORY 5705 5685 5665 5645 5885 5905 5925 5945
+vtxtable band 4 FATSHARK F FACTORY 5740 5760 5780 5800 5820 5840 5860 5880
+vtxtable band 5 RACEBAND R FACTORY 5658 5695 5732 5769 5806 5843 5880 5917
+vtxtable powerlevels 4
+vtxtable powervalues 14 20 26 36
+vtxtable powerlabels 25 100 400 MAX
+
+# master
+set acc_calibration = -12,-8,-68,1
+set mag_hardware = NONE
+set baro_hardware = NONE
+set rc_smoothing_auto_factor = 10
+set serialrx_provider = CRSF
+set blackbox_device = NONE
+set dshot_idle_value = 300
+set dshot_bidir = ON
+set report_cell_voltage = ON
+set osd_vbat_pos = 449
+set osd_vtx_channel_pos = 14388
+set osd_current_pos = 14805
+set osd_craft_name_pos = 33
+set osd_display_name_pos = 33
+set osd_avg_cell_voltage_pos = 14753
+set osd_stat_battery = ON
+set vtx_band = 5
+set vtx_channel = 1
+set vtx_power = 3
+set vtx_freq = 5658
+set gyro_1_align_yaw = 1800
+set name = Freeman_Banggod
+
+profile 0
+
+# profile 0
+set p_pitch = 63
+set i_pitch = 113
+set p_roll = 60
+set i_roll = 108
+set p_yaw = 60
+set i_yaw = 108
+set simplified_pi_gain = 135
+
+rateprofile 2
+
+# end the command batch
+batch end

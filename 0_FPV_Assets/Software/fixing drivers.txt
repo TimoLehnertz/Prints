@@ -1,0 +1,5 @@
+reboot pc
+dont open chrome
+run driver fixer
+plug in fc
+flash in betaflight

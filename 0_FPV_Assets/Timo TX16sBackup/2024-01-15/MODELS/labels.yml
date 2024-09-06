@@ -1,0 +1,54 @@
+Labels:
+  "Favorites":
+Sort: 1
+Models:
+  model1.yml:
+    hash: "7d6300009c290425"
+    name: "copter basic"
+    mod1type: 5
+    labels: ""
+    bitmap: ""
+    lastopen: 977442966
+  model10.yml:
+    hash: "4f6300001829581e"
+    name: "open racer"
+    mod1id: 1
+    mod1type: 5
+    labels: ""
+    bitmap: ""
+    lastopen: 0
+  model11.yml:
+    hash: "2b6500001829c323"
+    name: "typhoon"
+    mod1id: 2
+    mod1type: 5
+    labels: ""
+    bitmap: ""
+    lastopen: 0
+  model12.yml:
+    hash: "bc0d00003e29582b"
+    name: "MODEL12"
+    labels: ""
+    bitmap: ""
+    lastopen: 970291607
+  model2.yml:
+    hash: "164e000095299abb"
+    name: "sim"
+    labels: ""
+    bitmap: ""
+    lastopen: 977441333
+  model3.yml:
+    hash: "5c5c000067294a30"
+    name: "trash"
+    mod1type: 5
+    labels: ""
+    bitmap: ""
+    lastopen: 973566752
+  model4.yml:
+    hash: "9c2700009029a6b0"
+    name: "panni kiss"
+    mod1type: 5
+    labels: ""
+    bitmap: ""
+    lastopen: 976933765
+

@@ -1,0 +1,716 @@
+2022-10-06 @00:25:10 -- OS: Windows
+
+2022-10-06 @00:25:10 -- Configurator: 10.8.0 (5ec9465)
+
+2022-10-06 @00:25:10 -- Loaded release information for configurator from GitHub.
+
+2022-10-06 @00:25:14 -- Failed to open serial port
+
+2022-10-06 @00:25:17 -- Failed to open serial port
+
+2022-10-06 @00:25:20 -- Failed to open serial port
+
+2022-10-06 @00:25:34 -- Serial port successfully opened with ID: 1
+
+2022-10-06 @00:25:34 -- MultiWii API version: 1.44.0
+
+2022-10-06 @00:25:34 -- Flight controller info, identifier: BTFL, version: 4.3.1
+
+2022-10-06 @00:25:34 -- Running firmware released on: Jul 13 2022 03:36:10
+
+2022-10-06 @00:25:34 -- Board: DIAT/MAMBAF722(STM32F7X2), version: 0
+
+2022-10-06 @00:25:34 -- Unique device ID: 0x3100443237511634363730
+
+2022-10-06 @00:25:34 -- Craft name: Bumblebee
+
+2022-10-06 @00:25:34 -- Arming Disabled
+
+2022-10-06 @00:27:33 -- Serial port successfully closed
+
+2022-10-06 @00:39:16 -- Serial port successfully opened with ID: 2
+
+2022-10-06 @00:39:16 -- MultiWii API version: 1.44.0
+
+2022-10-06 @00:39:16 -- Flight controller info, identifier: BTFL, version: 4.3.1
+
+2022-10-06 @00:39:16 -- Running firmware released on: Jul 13 2022 03:36:10
+
+2022-10-06 @00:39:16 -- Board: DIAT/MAMBAF722(STM32F7X2), version: 0
+
+2022-10-06 @00:39:17 -- Unique device ID: 0x3100443237511634363730
+
+2022-10-06 @00:39:17 -- Craft name: Bumblebee
+
+2022-10-06 @00:39:17 -- Arming Disabled
+
+2022-10-06 @00:39:18 -- Serial port successfully closed
+
+2022-10-06 @00:41:37 -- Serial port successfully opened with ID: 3
+
+2022-10-06 @00:41:37 -- MultiWii API version: 1.44.0
+
+2022-10-06 @00:41:37 -- Flight controller info, identifier: BTFL, version: 4.3.1
+
+2022-10-06 @00:41:37 -- Running firmware released on: Jul 13 2022 03:36:10
+
+2022-10-06 @00:41:37 -- Board: DIAT/MAMBAF722(STM32F7X2), version: 0
+
+2022-10-06 @00:41:37 -- Unique device ID: 0x3100443237511634363730
+
+2022-10-06 @00:41:37 -- Craft name: Bumblebee
+
+2022-10-06 @00:41:37 -- Arming Disabled
+
+2022-10-06 @00:42:00 -- EEPROM saved
+
+2022-10-06 @00:42:00 -- Device - Rebooting
+
+2022-10-06 @00:42:00 -- Arming Enabled
+
+2022-10-06 @00:42:00 -- Runaway Takeoff Prevention Enabled
+
+2022-10-06 @00:42:00 -- Serial port successfully closed
+
+2022-10-06 @00:42:02 -- Serial port successfully opened with ID: 4
+
+2022-10-06 @00:42:02 -- MultiWii API version: 1.44.0
+
+2022-10-06 @00:42:02 -- Flight controller info, identifier: BTFL, version: 4.3.1
+
+2022-10-06 @00:42:02 -- Running firmware released on: Jul 13 2022 03:36:10
+
+2022-10-06 @00:42:02 -- Board: DIAT/MAMBAF722(STM32F7X2), version: 0
+
+2022-10-06 @00:42:02 -- Unique device ID: 0x3100443237511634363730
+
+2022-10-06 @00:42:02 -- Craft name: Bumblebee
+
+2022-10-06 @00:42:02 -- Arming Disabled
+
+2022-10-06 @00:42:03 -- Device - Ready
+
+2022-10-06 @00:42:27 -- EEPROM saved
+
+2022-10-06 @00:42:27 -- Device - Rebooting
+
+2022-10-06 @00:42:27 -- Arming Enabled
+
+2022-10-06 @00:42:27 -- Runaway Takeoff Prevention Enabled
+
+2022-10-06 @00:42:27 -- Serial port successfully closed
+
+2022-10-06 @00:42:30 -- Serial port successfully opened with ID: 5
+
+2022-10-06 @00:42:30 -- MultiWii API version: 1.44.0
+
+2022-10-06 @00:42:30 -- Flight controller info, identifier: BTFL, version: 4.3.1
+
+2022-10-06 @00:42:30 -- Running firmware released on: Jul 13 2022 03:36:10
+
+2022-10-06 @00:42:30 -- Board: DIAT/MAMBAF722(STM32F7X2), version: 0
+
+2022-10-06 @00:42:30 -- Unique device ID: 0x3100443237511634363730
+
+2022-10-06 @00:42:30 -- Craft name: Bumblebee
+
+2022-10-06 @00:42:30 -- Arming Disabled
+
+2022-10-06 @00:42:30 -- Device - Ready
+
+2022-10-06 @00:43:04 -- EEPROM saved
+
+2022-10-06 @00:43:04 -- Device - Rebooting
+
+2022-10-06 @00:43:04 -- Arming Enabled
+
+2022-10-06 @00:43:04 -- Runaway Takeoff Prevention Enabled
+
+2022-10-06 @00:43:04 -- Serial port successfully closed
+
+2022-10-06 @00:43:06 -- Serial port successfully opened with ID: 6
+
+2022-10-06 @00:43:06 -- MultiWii API version: 1.44.0
+
+2022-10-06 @00:43:06 -- Flight controller info, identifier: BTFL, version: 4.3.1
+
+2022-10-06 @00:43:06 -- Running firmware released on: Jul 13 2022 03:36:10
+
+2022-10-06 @00:43:06 -- Board: DIAT/MAMBAF722(STM32F7X2), version: 0
+
+2022-10-06 @00:43:06 -- Unique device ID: 0x3100443237511634363730
+
+2022-10-06 @00:43:06 -- Craft name: Bumblebee
+
+2022-10-06 @00:43:06 -- Arming Disabled
+
+2022-10-06 @00:43:06 -- Device - Ready
+
+2022-10-06 @00:43:34 -- Serial port successfully closed
+
+2022-10-06 @00:43:47 -- Serial port successfully opened with ID: 7
+
+2022-10-06 @00:43:47 -- MultiWii API version: 1.44.0
+
+2022-10-06 @00:43:47 -- Flight controller info, identifier: BTFL, version: 4.3.1
+
+2022-10-06 @00:43:47 -- Running firmware released on: Jul 13 2022 03:36:10
+
+2022-10-06 @00:43:47 -- Board: DIAT/MAMBAF722(STM32F7X2), version: 0
+
+2022-10-06 @00:43:47 -- Unique device ID: 0x3100443237511634363730
+
+2022-10-06 @00:43:47 -- Craft name: Bumblebee
+
+2022-10-06 @00:43:47 -- Arming Disabled
+
+2022-10-06 @00:44:21 -- EEPROM saved
+
+2022-10-06 @00:44:21 -- Device - Rebooting
+
+2022-10-06 @00:44:21 -- Arming Enabled
+
+2022-10-06 @00:44:21 -- Runaway Takeoff Prevention Enabled
+
+2022-10-06 @00:44:21 -- Serial port successfully closed
+
+2022-10-06 @00:44:23 -- Serial port successfully opened with ID: 8
+
+2022-10-06 @00:44:23 -- MultiWii API version: 1.44.0
+
+2022-10-06 @00:44:23 -- Flight controller info, identifier: BTFL, version: 4.3.1
+
+2022-10-06 @00:44:23 -- Running firmware released on: Jul 13 2022 03:36:10
+
+2022-10-06 @00:44:23 -- Board: DIAT/MAMBAF722(STM32F7X2), version: 0
+
+2022-10-06 @00:44:23 -- Unique device ID: 0x3100443237511634363730
+
+2022-10-06 @00:44:23 -- Craft name: Bumblebee
+
+2022-10-06 @00:44:23 -- Arming Disabled
+
+2022-10-06 @00:44:24 -- Device - Ready
+
+2022-10-06 @00:44:40 -- EEPROM saved
+
+2022-10-06 @00:44:40 -- Device - Rebooting
+
+2022-10-06 @00:44:40 -- Arming Enabled
+
+2022-10-06 @00:44:40 -- Runaway Takeoff Prevention Enabled
+
+2022-10-06 @00:44:40 -- Serial port successfully closed
+
+2022-10-06 @00:44:43 -- Serial port successfully opened with ID: 9
+
+2022-10-06 @00:44:43 -- MultiWii API version: 1.44.0
+
+2022-10-06 @00:44:43 -- Flight controller info, identifier: BTFL, version: 4.3.1
+
+2022-10-06 @00:44:43 -- Running firmware released on: Jul 13 2022 03:36:10
+
+2022-10-06 @00:44:43 -- Board: DIAT/MAMBAF722(STM32F7X2), version: 0
+
+2022-10-06 @00:44:43 -- Unique device ID: 0x3100443237511634363730
+
+2022-10-06 @00:44:43 -- Craft name: Bumblebee
+
+2022-10-06 @00:44:43 -- Arming Disabled
+
+2022-10-06 @00:44:43 -- Device - Ready
+
+2022-10-06 @00:45:31 -- Serial port successfully closed
+
+2022-10-06 @00:51:06 -- Serial port successfully opened with ID: 10
+
+2022-10-06 @00:51:06 -- MultiWii API version: 1.44.0
+
+2022-10-06 @00:51:06 -- Flight controller info, identifier: BTFL, version: 4.3.1
+
+2022-10-06 @00:51:06 -- Running firmware released on: Jul 13 2022 03:36:10
+
+2022-10-06 @00:51:06 -- Board: DIAT/MAMBAF722(STM32F7X2), version: 0
+
+2022-10-06 @00:51:06 -- Unique device ID: 0x3100443237511634363730
+
+2022-10-06 @00:51:06 -- Craft name: Bumblebee
+
+2022-10-06 @00:51:06 -- Arming Disabled
+
+2022-10-06 @00:51:16 -- EEPROM saved
+
+2022-10-06 @00:51:16 -- Device - Rebooting
+
+2022-10-06 @00:51:16 -- Arming Enabled
+
+2022-10-06 @00:51:16 -- Runaway Takeoff Prevention Enabled
+
+2022-10-06 @00:51:16 -- Serial port successfully closed
+
+2022-10-06 @00:51:18 -- Serial port successfully opened with ID: 11
+
+2022-10-06 @00:51:18 -- MultiWii API version: 1.44.0
+
+2022-10-06 @00:51:18 -- Flight controller info, identifier: BTFL, version: 4.3.1
+
+2022-10-06 @00:51:18 -- Running firmware released on: Jul 13 2022 03:36:10
+
+2022-10-06 @00:51:18 -- Board: DIAT/MAMBAF722(STM32F7X2), version: 0
+
+2022-10-06 @00:51:18 -- Unique device ID: 0x3100443237511634363730
+
+2022-10-06 @00:51:18 -- Craft name: Bumblebee
+
+2022-10-06 @00:51:18 -- Arming Disabled
+
+2022-10-06 @00:51:18 -- Device - Ready
+
+2022-10-06 @00:52:20 -- EEPROM saved
+
+2022-10-06 @00:53:06 -- EEPROM saved
+
+2022-10-06 @00:53:08 -- Arming Enabled
+
+2022-10-06 @00:53:08 -- Runaway Takeoff Prevention Enabled
+
+2022-10-06 @00:53:08 -- Serial port successfully closed
+
+2022-10-06 @01:06:12 -- Serial port successfully opened with ID: 12
+
+2022-10-06 @01:06:12 -- MultiWii API version: 1.44.0
+
+2022-10-06 @01:06:12 -- Flight controller info, identifier: BTFL, version: 4.3.1
+
+2022-10-06 @01:06:12 -- Running firmware released on: Jul 13 2022 03:36:10
+
+2022-10-06 @01:06:12 -- Board: DIAT/MAMBAF722(STM32F7X2), version: 0
+
+2022-10-06 @01:06:12 -- Unique device ID: 0x3100443237511634363730
+
+2022-10-06 @01:06:12 -- Craft name: Bumblebee
+
+2022-10-06 @01:06:12 -- Arming Disabled
+
+2022-10-06 @01:06:23 -- Accelerometer calibration started
+
+2022-10-06 @01:06:25 -- Accelerometer calibration finished
+
+2022-10-06 @01:07:18 -- EEPROM saved
+
+2022-10-06 @01:07:18 -- Device - Rebooting
+
+2022-10-06 @01:07:18 -- Arming Enabled
+
+2022-10-06 @01:07:18 -- Runaway Takeoff Prevention Enabled
+
+2022-10-06 @01:07:18 -- Serial port successfully closed
+
+2022-10-06 @01:07:21 -- Serial port successfully opened with ID: 13
+
+2022-10-06 @01:07:21 -- MultiWii API version: 1.44.0
+
+2022-10-06 @01:07:21 -- Flight controller info, identifier: BTFL, version: 4.3.1
+
+2022-10-06 @01:07:21 -- Running firmware released on: Jul 13 2022 03:36:10
+
+2022-10-06 @01:07:21 -- Board: DIAT/MAMBAF722(STM32F7X2), version: 0
+
+2022-10-06 @01:07:21 -- Unique device ID: 0x3100443237511634363730
+
+2022-10-06 @01:07:21 -- Craft name: Bumblebee
+
+2022-10-06 @01:07:21 -- Arming Disabled
+
+2022-10-06 @01:07:21 -- Device - Ready
+
+2022-10-06 @01:07:31 -- Arming Enabled
+
+2022-10-06 @01:07:31 -- Runaway Takeoff Prevention Enabled
+
+2022-10-06 @01:07:31 -- Serial port successfully closed
+
+2022-10-06 @01:38:49 -- Serial port successfully opened with ID: 14
+
+2022-10-06 @01:38:49 -- MultiWii API version: 1.44.0
+
+2022-10-06 @01:38:49 -- Flight controller info, identifier: BTFL, version: 4.3.1
+
+2022-10-06 @01:38:49 -- Running firmware released on: Jul 13 2022 03:36:10
+
+2022-10-06 @01:38:49 -- Board: DIAT/MAMBAF722(STM32F7X2), version: 0
+
+2022-10-06 @01:38:49 -- Unique device ID: 0x3100443237511634363730
+
+2022-10-06 @01:38:49 -- Craft name: Bumblebee
+
+2022-10-06 @01:38:49 -- Arming Disabled
+
+2022-10-06 @01:38:57 -- CLI mode detected
+
+2022-10-06 @01:39:08 -- Serial port successfully closed
+
+2022-10-06 @01:39:10 -- Serial port successfully opened with ID: 15
+
+2022-10-06 @01:39:10 -- MultiWii API version: 1.44.0
+
+2022-10-06 @01:39:10 -- Flight controller info, identifier: BTFL, version: 4.3.1
+
+2022-10-06 @01:39:10 -- Running firmware released on: Jul 13 2022 03:36:10
+
+2022-10-06 @01:39:10 -- Board: DIAT/MAMBAF722(STM32F7X2), version: 0
+
+2022-10-06 @01:39:10 -- Unique device ID: 0x3100443237511634363730
+
+2022-10-06 @01:39:10 -- Craft name: Bumblebee
+
+2022-10-06 @01:39:10 -- Arming Disabled
+
+2022-10-06 @01:39:29 -- CLI mode detected
+
+2022-10-06 @01:41:30 -- CLI reboot detected
+
+2022-10-06 @01:41:30 -- Device - Rebooting
+
+2022-10-06 @01:41:30 -- Serial port successfully closed
+
+2022-10-06 @01:41:33 -- Serial port successfully opened with ID: 16
+
+2022-10-06 @01:41:33 -- MultiWii API version: 1.44.0
+
+2022-10-06 @01:41:33 -- Flight controller info, identifier: BTFL, version: 4.3.1
+
+2022-10-06 @01:41:33 -- Running firmware released on: Jul 13 2022 03:36:10
+
+2022-10-06 @01:41:33 -- Board: DIAT/MAMBAF722(STM32F7X2), version: 0
+
+2022-10-06 @01:41:33 -- Unique device ID: 0x3100443237511634363730
+
+2022-10-06 @01:41:33 -- Craft name: Bumblebee
+
+2022-10-06 @01:41:33 -- Arming Disabled
+
+2022-10-06 @01:41:33 -- Device - Ready
+
+2022-10-06 @01:41:43 -- Arming Enabled
+
+2022-10-06 @01:41:43 -- Runaway Takeoff Prevention Enabled
+
+2022-10-06 @01:41:43 -- Serial port successfully closed
+
+2022-10-06 @01:42:11 -- Serial port successfully opened with ID: 17
+
+2022-10-06 @01:42:11 -- MultiWii API version: 1.44.0
+
+2022-10-06 @01:42:12 -- Flight controller info, identifier: BTFL, version: 4.3.1
+
+2022-10-06 @01:42:12 -- Running firmware released on: Jul 13 2022 03:36:10
+
+2022-10-06 @01:42:12 -- Board: DIAT/MAMBAF722(STM32F7X2), version: 0
+
+2022-10-06 @01:42:12 -- Unique device ID: 0x3100443237511634363730
+
+2022-10-06 @01:42:12 -- Craft name: Bumblebee
+
+2022-10-06 @01:42:12 -- Arming Disabled
+
+2022-10-06 @01:43:03 -- OSD settings saved
+
+2022-10-06 @01:43:36 -- OSD settings saved
+
+2022-10-06 @01:44:51 -- Serial port successfully closed
+
+2022-10-06 @02:42:03 -- Serial port successfully opened with ID: 18
+
+2022-10-06 @02:42:03 -- MultiWii API version: 1.44.0
+
+2022-10-06 @02:42:03 -- Flight controller info, identifier: BTFL, version: 4.3.0
+
+2022-10-06 @02:42:03 -- Running firmware released on: Mar 20 2021 23:01:59
+
+2022-10-06 @02:42:03 -- Board: HBRO/KAKUTEF7HDV(STM32F745), version: 0
+
+2022-10-06 @02:42:03 -- Unique device ID: 0x30004e3039511434383332
+
+2022-10-06 @02:42:03 -- Craft name:
+
+2022-10-06 @02:42:03 -- Arming Disabled
+
+2022-10-06 @02:42:09 -- Accelerometer calibration started
+
+2022-10-06 @02:42:11 -- Accelerometer calibration finished
+
+2022-10-06 @02:42:12 -- Accelerometer calibration started
+
+2022-10-06 @02:42:14 -- Accelerometer calibration finished
+
+2022-10-06 @02:42:44 -- EEPROM saved
+
+2022-10-06 @02:43:07 -- Loaded default values for the current PID profile.
+
+2022-10-06 @02:43:46 -- PID data refreshed
+
+2022-10-06 @02:44:57 -- CLI mode detected
+
+2022-10-06 @02:45:25 -- CLI reboot detected
+
+2022-10-06 @02:45:25 -- Device - Rebooting
+
+2022-10-06 @02:45:25 -- Serial port successfully closed
+
+2022-10-06 @02:45:27 -- Serial port successfully opened with ID: 19
+
+2022-10-06 @02:45:27 -- MultiWii API version: 1.44.0
+
+2022-10-06 @02:45:27 -- Flight controller info, identifier: BTFL, version: 4.3.0
+
+2022-10-06 @02:45:27 -- Running firmware released on: Mar 20 2021 23:01:59
+
+2022-10-06 @02:45:27 -- Board: HBRO/KAKUTEF7HDV(STM32F745), version: 0
+
+2022-10-06 @02:45:27 -- Unique device ID: 0x30004e3039511434383332
+
+2022-10-06 @02:45:27 -- Craft name:
+
+2022-10-06 @02:45:27 -- Arming Disabled
+
+2022-10-06 @02:45:27 -- Device - Ready
+
+2022-10-06 @02:45:41 -- EEPROM saved
+
+2022-10-06 @02:45:53 -- CLI mode detected
+
+2022-10-06 @02:45:54 -- Serial port successfully closed
+
+2022-10-06 @02:45:57 -- Serial port successfully opened with ID: 20
+
+2022-10-06 @02:45:57 -- MultiWii API version: 1.44.0
+
+2022-10-06 @02:45:57 -- Flight controller info, identifier: BTFL, version: 4.3.0
+
+2022-10-06 @02:45:57 -- Running firmware released on: Mar 20 2021 23:01:59
+
+2022-10-06 @02:45:57 -- Board: HBRO/KAKUTEF7HDV(STM32F745), version: 0
+
+2022-10-06 @02:45:57 -- Unique device ID: 0x30004e3039511434383332
+
+2022-10-06 @02:45:57 -- Craft name:
+
+2022-10-06 @02:45:57 -- Arming Disabled
+
+2022-10-06 @02:47:07 -- EEPROM saved
+
+2022-10-06 @02:47:07 -- Device - Rebooting
+
+2022-10-06 @02:47:07 -- Arming Enabled
+
+2022-10-06 @02:47:07 -- Runaway Takeoff Prevention Enabled
+
+2022-10-06 @02:47:07 -- Serial port successfully closed
+
+2022-10-06 @02:47:10 -- Serial port successfully opened with ID: 21
+
+2022-10-06 @02:47:10 -- MultiWii API version: 1.44.0
+
+2022-10-06 @02:47:10 -- Flight controller info, identifier: BTFL, version: 4.3.0
+
+2022-10-06 @02:47:10 -- Running firmware released on: Mar 20 2021 23:01:59
+
+2022-10-06 @02:47:10 -- Board: HBRO/KAKUTEF7HDV(STM32F745), version: 0
+
+2022-10-06 @02:47:10 -- Unique device ID: 0x30004e3039511434383332
+
+2022-10-06 @02:47:10 -- Craft name:
+
+2022-10-06 @02:47:10 -- Arming Disabled
+
+2022-10-06 @02:47:10 -- Device - Ready
+
+2022-10-06 @02:47:17 -- EEPROM saved
+
+2022-10-06 @02:47:17 -- Device - Rebooting
+
+2022-10-06 @02:47:17 -- Arming Enabled
+
+2022-10-06 @02:47:17 -- Runaway Takeoff Prevention Enabled
+
+2022-10-06 @02:47:17 -- Serial port successfully closed
+
+2022-10-06 @02:47:20 -- Serial port successfully opened with ID: 22
+
+2022-10-06 @02:47:20 -- MultiWii API version: 1.44.0
+
+2022-10-06 @02:47:20 -- Flight controller info, identifier: BTFL, version: 4.3.0
+
+2022-10-06 @02:47:20 -- Running firmware released on: Mar 20 2021 23:01:59
+
+2022-10-06 @02:47:20 -- Board: HBRO/KAKUTEF7HDV(STM32F745), version: 0
+
+2022-10-06 @02:47:20 -- Unique device ID: 0x30004e3039511434383332
+
+2022-10-06 @02:47:20 -- Craft name:
+
+2022-10-06 @02:47:20 -- Arming Disabled
+
+2022-10-06 @02:47:20 -- Device - Ready
+
+2022-10-06 @02:47:39 -- Arming Enabled
+
+2022-10-06 @02:47:39 -- Runaway Takeoff Prevention Enabled
+
+2022-10-06 @02:47:39 -- Serial port successfully closed
+
+2022-10-06 @11:44:49 -- Serial port successfully opened with ID: 23
+
+2022-10-06 @11:44:49 -- MultiWii API version: 1.44.0
+
+2022-10-06 @11:44:49 -- Flight controller info, identifier: BTFL, version: 4.3.0
+
+2022-10-06 @11:44:49 -- Running firmware released on: Mar 20 2021 23:01:59
+
+2022-10-06 @11:44:49 -- Board: HBRO/KAKUTEF7HDV(STM32F745), version: 0
+
+2022-10-06 @11:44:49 -- Unique device ID: 0x30004e3039511434383332
+
+2022-10-06 @11:44:49 -- Craft name:
+
+2022-10-06 @11:44:49 -- Arming Disabled
+
+2022-10-06 @11:45:16 -- Accelerometer calibration finished
+
+2022-10-06 @11:45:28 -- Serial port successfully closed
+
+2022-10-06 @11:45:37 -- Serial port successfully opened with ID: 24
+
+2022-10-06 @11:45:37 -- MultiWii API version: 1.44.0
+
+2022-10-06 @11:45:37 -- Flight controller info, identifier: BTFL, version: 4.3.0
+
+2022-10-06 @11:45:37 -- Running firmware released on: Mar 20 2021 23:01:59
+
+2022-10-06 @11:45:37 -- Board: HBRO/KAKUTEF7HDV(STM32F745), version: 0
+
+2022-10-06 @11:45:37 -- Unique device ID: 0x30004e3039511434383332
+
+2022-10-06 @11:45:37 -- Craft name:
+
+2022-10-06 @11:45:37 -- Arming Disabled
+
+2022-10-06 @11:45:39 -- Accelerometer calibration started
+
+2022-10-06 @11:45:41 -- Accelerometer calibration finished
+
+2022-10-06 @11:45:48 -- CLI mode detected
+
+
+
+
+Entering CLI Mode, type 'exit' to return, or 'help'
+
+# 
+# Building AutoComplete Cache ... Done!
+# 
+# diff
+
+# version
+# Betaflight / STM32F745 (S745) 4.3.0 Mar 20 2021 / 23:01:59 (norevision) MSP API: 1.44
+# config: manufacturer_id: HBRO, board_name: KAKUTEF7HDV, version: edcd244b, date: 2022-06-29T02:24:46Z
+
+# start the command batch
+batch start
+
+board_name KAKUTEF7HDV
+manufacturer_id HBRO
+
+# feature
+feature -RX_PARALLEL_PWM
+feature GPS
+
+# serial
+serial 1 2 115200 57600 0 115200
+serial 2 1 115200 57600 0 115200
+serial 3 64 115200 57600 0 115200
+serial 5 0 115200 57600 0 115200
+
+# aux
+aux 0 0 0 1825 2100 0 0
+aux 1 1 1 900 1225 0 0
+aux 2 2 1 1400 1725 0 0
+aux 3 46 4 1750 2100 0 0
+aux 4 35 2 1800 2100 0 0
+aux 5 49 3 1900 2100 0 0
+
+# master
+set gyro_lowpass_hz = 0
+set gyro_lowpass2_hz = 0
+set dyn_lpf_gyro_min_hz = 0
+set dyn_lpf_gyro_max_hz = 0
+set acc_calibration = 21,44,-263,1
+set baro_hardware = AUTO
+set serialrx_provider = CRSF
+set dshot_bidir = ON
+set yaw_motors_reversed = ON
+set small_angle = 180
+set gps_provider = UBLOX
+set gps_rescue_allow_arming_without_fix = ON
+set simplified_gyro_filter_multiplier = 0
+###ERROR IN diff: CORRUPTED CONFIG: simplified_gyro_filter_multiplier = 0###
+set report_cell_voltage = ON
+set osd_warn_link_quality = ON
+set osd_rssi_pos = 2459
+set osd_link_quality_pos = 2392
+set osd_tim_2_pos = 146
+set osd_flymode_pos = 2464
+set osd_g_force_pos = 2496
+set osd_throttle_pos = 2144
+set osd_current_pos = 2504
+set osd_mah_drawn_pos = 2510
+set osd_motor_diag_pos = 2074
+set osd_craft_name_pos = 203
+set osd_gps_speed_pos = 2051
+set osd_gps_lon_pos = 2112
+set osd_gps_lat_pos = 2080
+set osd_gps_sats_pos = 2048
+set osd_home_dir_pos = 2086
+set osd_home_dist_pos = 2055
+set osd_flight_dist_pos = 48
+set osd_altitude_pos = 2056
+set osd_warnings_pos = 14634
+set osd_avg_cell_voltage_pos = 2476
+set osd_disarmed_pos = 2379
+set osd_nvario_pos = 2090
+set osd_flip_arrow_pos = 206
+set osd_stick_overlay_left_pos = 247
+set osd_efficiency_pos = 2150
+set osd_total_flights_pos = 2071
+set osd_stat_battery = ON
+set osd_stat_max_g_force = ON
+set osd_stat_total_time = ON
+set osd_displayport_device = MSP
+set displayport_msp_serial = 2
+set gyro_1_align_yaw = 2700
+
+profile 0
+
+# profile 0
+set dyn_lpf_dterm_min_hz = 0
+set dyn_lpf_dterm_max_hz = 0
+set dterm_lowpass_hz = 0
+set dterm_lowpass2_hz = 0
+set simplified_dterm_filter = 
+###ERROR IN diff: CORRUPTED CONFIG: simplified_dterm_filter = 100###
+set simplified_dterm_filter_multiplier = 0
+###ERROR IN diff: CORRUPTED CONFIG: simplified_dterm_filter_multiplier = 0###
+
+rateprofile 0
+
+# rateprofile 0
+set roll_rc_rate = 80
+set pitch_rc_rate = 80
+set yaw_rc_rate = 80
+set roll_srate = 60
+set pitch_srate = 60
+set yaw_srate = 60
+
+# end the command batch
+batch end

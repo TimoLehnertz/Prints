@@ -1,0 +1,165 @@
+# 
+
+# diff all
+
+# version
+# Betaflight / STM32F405 (S405) 4.5.1 Jul 29 2024 / 07:16:06 (77d01ba3b) MSP API: 1.46
+# config rev: bc5da0e
+
+# start the command batch
+batch start
+
+# reset configuration to default settings
+defaults nosave
+
+board_name BETAFPVF405
+manufacturer_id BEFH
+mcu_id 004f00465853500d20383658
+signature 
+
+# feature
+feature TELEMETRY
+feature LED_STRIP
+feature OSD
+
+# serial
+serial 2 64 115200 57600 0 115200
+serial 3 131073 115200 57600 0 115200
+
+# beeper
+beeper -GYRO_CALIBRATED
+beeper -DISARMING
+beeper -ARMING
+beeper -DISARM_REPEAT
+beeper -ARMED
+beeper -ON_USB
+beeper -CRASH_FLIP
+
+# beacon
+beacon RX_SET
+
+# aux
+aux 0 0 0 1700 2100 0 0
+aux 1 1 2 1300 2100 0 0
+aux 2 13 5 1700 2100 0 0
+aux 3 35 1 1700 2100 0 0
+aux 4 36 4 1700 2100 0 0
+aux 5 49 1 1300 1700 0 0
+aux 6 51 1 900 1700 0 0
+
+# master
+set gyro_lpf1_static_hz = 150
+set gyro_lpf2_static_hz = 300
+set dyn_notch_count = 2
+set dyn_notch_max_hz = 750
+set gyro_lpf1_dyn_min_hz = 150
+set gyro_lpf1_dyn_max_hz = 300
+set acc_calibration = 141,-12,282,1
+set rc_smoothing_auto_factor = 175
+set rc_smoothing_auto_factor_throttle = 100
+set rc_smoothing_setpoint_cutoff = 12
+set rc_smoothing_feedforward_cutoff = 12
+set rc_smoothing_throttle_cutoff = 20
+set dshot_bidir = ON
+set motor_pwm_protocol = DSHOT300
+set motor_poles = 12
+set motor_output_reordering = 2,3,0,1,4,5,6,7
+set align_board_roll = 180
+set yaw_motors_reversed = ON
+set small_angle = 180
+set pid_process_denom = 2
+set simplified_gyro_filter_multiplier = 60
+set report_cell_voltage = ON
+set osd_link_quality_pos = 2432
+set osd_tim_2_pos = 2456
+set osd_warnings_pos = 14570
+set osd_avg_cell_voltage_pos = 2412
+set osd_canvas_width = 30
+set osd_canvas_height = 13
+set vcd_video_system = AUTO
+set rpm_filter_harmonics = 2
+
+profile 0
+
+# profile 0
+set vbat_sag_compensation = 100
+set anti_gravity_gain = 90
+set iterm_relax_cutoff = 10
+set pidsum_limit = 1000
+set pidsum_limit_yaw = 1000
+set yaw_lowpass_hz = 125
+set p_pitch = 90
+set i_pitch = 161
+set d_pitch = 72
+set f_pitch = 194
+set p_roll = 86
+set i_roll = 153
+set d_roll = 62
+set f_roll = 187
+set p_yaw = 86
+set i_yaw = 153
+set f_yaw = 187
+set d_min_roll = 54
+set d_min_pitch = 61
+set thrust_linear = 20
+set feedforward_smooth_factor = 35
+set feedforward_jitter_factor = 12
+set simplified_master_multiplier = 120
+set simplified_d_gain = 150
+set simplified_pi_gain = 160
+set simplified_dmax_gain = 50
+set simplified_feedforward_gain = 130
+set ez_landing_limit = 5
+
+profile 1
+
+profile 2
+
+profile 3
+
+# restore original profile selection
+profile 0
+
+rateprofile 0
+
+# rateprofile 0
+set rateprofile_name = cine
+set roll_rc_rate = 2
+set pitch_rc_rate = 2
+set yaw_rc_rate = 2
+set roll_srate = 50
+set pitch_srate = 50
+set yaw_srate = 50
+
+rateprofile 1
+
+# rateprofile 1
+set rateprofile_name = race
+set roll_rc_rate = 50
+set pitch_rc_rate = 50
+set yaw_rc_rate = 50
+set roll_srate = 50
+set pitch_srate = 50
+set yaw_srate = 50
+set throttle_limit_type = SCALE
+set throttle_limit_percent = 85
+
+rateprofile 2
+
+# rateprofile 2
+set rateprofile_name = freestyl
+set roll_rc_rate = 20
+set pitch_rc_rate = 20
+set yaw_rc_rate = 20
+set roll_srate = 70
+set pitch_srate = 70
+set yaw_srate = 70
+
+rateprofile 3
+
+# restore original rateprofile selection
+rateprofile 0
+
+# save configuration
+save
+# 

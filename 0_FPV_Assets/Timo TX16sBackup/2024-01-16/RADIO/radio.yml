@@ -1,0 +1,197 @@
+checksum: 44152
+manuallyEdited: 0
+semver: 2.9.2
+board: tx16s
+calib: 
+   Rud:
+      mid: 1019
+      spanNeg: 591
+      spanPos: 518
+   Ele:
+      mid: 947
+      spanNeg: 482
+      spanPos: 574
+   Thr:
+      mid: 1018
+      spanNeg: 680
+      spanPos: 759
+   Ail:
+      mid: 1045
+      spanNeg: 763
+      spanPos: 781
+   S1:
+      mid: 870
+      spanNeg: 856
+      spanPos: 1159
+   6POS:
+      mid: 1029
+      spanNeg: 6158
+      spanPos: 11298
+   S2:
+      mid: 1006
+      spanNeg: 991
+      spanPos: 1025
+   LS:
+      mid: 1013
+      spanNeg: 280
+      spanPos: 265
+   RS:
+      mid: 1053
+      spanNeg: 264
+      spanPos: 270
+vBatWarn: 66
+txVoltageCalibration: 0
+backlightMode: backlight_mode_keys
+antennaMode: MODE_PER_MODEL
+disableRtcWarning: 0
+keysBacklight: 0
+internalModule: TYPE_MULTIMODULE
+trainer: 
+   calib: 
+      2:
+         val: 2
+   mix: 
+      0:
+         srcChn: 3
+         mode: REPL
+         studWeight: 100
+      1:
+         srcChn: 2
+         mode: REPL
+         studWeight: 100
+      2:
+         srcChn: 0
+         mode: REPL
+         studWeight: 100
+      3:
+         srcChn: 1
+         mode: REPL
+         studWeight: 100
+view: 0
+fai: 0
+beepMode: mode_all
+alarmsFlash: 0
+disableMemoryWarning: 0
+disableAlarmWarning: 0
+stickMode: 1
+timezone: 0
+adjustRTC: 0
+inactivityTimer: 0
+internalModuleBaudrate: 0
+hapticMode: mode_all
+switchesDelay: 0
+lightAutoOff: 3
+templateSetup: 21
+PPM_Multiplier: 0
+hapticLength: 1
+beepLength: 0
+hapticStrength: 4
+gpsFormat: 0
+speakerPitch: 0
+speakerVolume: 9
+vBatMin: 70
+vBatMax: 84
+backlightBright: 52
+globalTimer: 531824
+bluetoothBaudrate: 0
+bluetoothMode: OFF
+countryCode: 2
+pwrOnSpeed: 0
+pwrOffSpeed: 1
+noJitterFilter: 1
+imperial: 0
+disableRssiPoweroffAlarm: 0
+USBMode: 0
+jackMode: 0
+ttsLanguage: "en"
+beepVolume: 1
+wavVolume: 4
+varioVolume: 2
+backgroundVolume: 3
+varioPitch: 0
+varioRange: 0
+varioRepeat: 0
+serialPort: 
+   VCP:
+      mode: CLI
+      power: 0
+sticksConfig: 
+   1:
+      name: "A"
+   2:
+      name: "C"
+switchConfig: 
+   SA:
+      type: 3pos
+      name: ""
+   SB:
+      type: 3pos
+      name: ""
+   SC:
+      type: 3pos
+      name: ""
+   SD:
+      type: 3pos
+      name: ""
+   SE:
+      type: 3pos
+      name: ""
+   SF:
+      type: 2pos
+      name: ""
+   SG:
+      type: 3pos
+      name: ""
+   SH:
+      type: toggle
+      name: ""
+potsConfig: 
+   S1:
+      type: with_detent
+      name: ""
+   6POS:
+      type: multipos_switch
+      name: ""
+   S2:
+      type: with_detent
+      name: ""
+slidersConfig: 
+   LS:
+      type: with_detent
+      name: ""
+   RS:
+      type: with_detent
+      name: ""
+currModelFilename: "model1.yml"
+modelQuickSelect: 0
+blOffBright: 4
+bluetoothName: ""
+themeName: "EdgeTX"
+themeData: 
+   options: 
+      0:
+         type: Unsigned
+         value: 
+            unsignedValue: 65535
+      1:
+         type: Unsigned
+         value: 
+            unsignedValue: 57603
+ownerRegistrationID: " 99KRVP-"
+rotEncMode: 0
+uartSampleMode: 0
+audioMuteEnable: 0
+imuMax: 0
+imuOffset: 0
+selectedTheme: "FM2M Original"
+radioThemesDisabled: 0
+radioGFDisabled: 0
+radioTrainerDisabled: 0
+modelHeliDisabled: 0
+modelFMDisabled: 0
+modelCurvesDisabled: 0
+modelGVDisabled: 0
+modelLSDisabled: 0
+modelSFDisabled: 0
+modelCustomScriptsDisabled: 1
+modelTelemetryDisabled: 0

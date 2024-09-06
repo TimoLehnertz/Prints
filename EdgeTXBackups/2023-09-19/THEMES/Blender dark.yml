@@ -1,0 +1,17 @@
+---
+summary:
+  name: Blender dark
+  author: Timo Lehnertz
+  info: The beloved blender dark theme
+colors:
+  PRIMARY1: 0x334D80
+  PRIMARY2: 0xFFFFFF
+  PRIMARY3: 0xFF9733
+  SECONDARY1: 0x1D1D1D
+  SECONDARY2: 0xFFB268
+  SECONDARY3: 0x3D3D3D
+  FOCUS: 0x4772B3
+  EDIT: 0xFFB268
+  ACTIVE: 0xFA9C2D
+  WARNING: 0xE00000
+  DISABLED: 0x8C8C8C

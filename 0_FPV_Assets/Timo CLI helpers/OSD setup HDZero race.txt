@@ -1,0 +1,13 @@
+set vcd_video_system = HD
+
+set osd_displayport_device = MSP
+
+set osd_link_quality_pos = 2563
+set osd_tim_2_pos = 3589
+set osd_throttle_pos = 3113
+set osd_vtx_channel_pos = 3079
+set osd_warnings_pos = 14676
+set osd_avg_cell_voltage_pos = 2454
+set osd_sys_vtx_temp_pos = 2509
+set osd_canvas_width = 50
+set osd_canvas_height = 18

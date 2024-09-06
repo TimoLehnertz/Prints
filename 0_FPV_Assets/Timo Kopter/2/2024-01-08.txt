@@ -1,0 +1,193 @@
+# 
+
+# diff all
+
+# version
+# Betaflight / STM32F411 (S411) 4.4.3 Nov 16 2023 / 12:16:41 (738127e7e) MSP API: 1.45
+
+# config: YES
+
+# start the command batch
+batch start
+
+# reset configuration to default settings
+defaults nosave
+
+board_name TMVELOXF411
+manufacturer_id TMTR
+mcu_id 001e002a3236510135383430
+signature 
+
+# name: Mover 2
+
+# serial
+serial 0 64 115200 57600 0 115200
+serial 1 131073 115200 57600 0 115200
+
+# beacon
+beacon RX_SET
+
+# aux
+aux 0 0 0 1700 2100 0 0
+aux 1 13 3 1700 2100 0 0
+aux 2 35 2 1700 2100 0 0
+aux 3 36 4 1700 2100 0 0
+aux 4 39 1 900 1300 0 0
+aux 5 49 2 1300 1700 0 0
+aux 6 51 2 900 1700 0 0
+
+# vtxtable
+vtxtable bands 6
+vtxtable channels 8
+vtxtable band 1 BOSCAM_A A CUSTOM     0    0    0    0    0    0    0    0
+vtxtable band 2 BOSCAM_B B CUSTOM     0    0    0    0    0    0    0    0
+vtxtable band 3 BOSCAM_E E CUSTOM     0    0    0    0    0    0    0    0
+vtxtable band 4 FATSHARK F CUSTOM     0 5760    0 5800    0    0    0    0
+vtxtable band 5 RACEBAND R CUSTOM  5658 5695 5732 5769 5806 5843 5880 5917
+vtxtable band 6 LOWBAND  L CUSTOM     0    0    0    0    0    0    0    0
+vtxtable powerlevels 3
+vtxtable powervalues 14 23 0
+vtxtable powerlabels 25 200 0
+
+# vtx
+vtx 0 1 0 0 1 1200 2100
+vtx 1 1 0 0 3 900 1200
+vtx 2 5 5 1 0 900 1050
+vtx 3 5 5 2 0 1100 1150
+vtx 4 5 5 3 0 1250 1300
+vtx 5 5 5 4 0 1400 1450
+vtx 6 5 5 5 0 1550 1600
+vtx 7 5 5 6 0 1700 1750
+vtx 8 5 5 7 0 1850 1900
+vtx 9 5 5 8 0 1975 2100
+
+# rxfail
+rxfail 5 s 1000
+
+# master
+set gyro_lpf1_static_hz = 0
+set gyro_calib_noise_limit = 55
+set dyn_notch_count = 2
+set dyn_notch_q = 450
+set dyn_notch_min_hz = 125
+set dyn_notch_max_hz = 650
+set gyro_lpf1_dyn_min_hz = 0
+set gyro_lpf1_dyn_max_hz = 0
+set acc_hardware = NONE
+set acc_lpf_hz = 10
+set acc_calibration = 48,102,74,1
+set rc_smoothing_auto_factor = 25
+set rc_smoothing_auto_factor_throttle = 25
+set dshot_bidir = ON
+set motor_pwm_protocol = DSHOT300
+set yaw_motors_reversed = ON
+set small_angle = 180
+set pid_process_denom = 1
+set simplified_gyro_filter = OFF
+set report_cell_voltage = ON
+set osd_link_quality_pos = 2563
+set osd_tim_2_pos = 3589
+set osd_throttle_pos = 3113
+set osd_vtx_channel_pos = 3079
+set osd_craft_name_pos = 2100
+set osd_warnings_pos = 14611
+set osd_avg_cell_voltage_pos = 2454
+set osd_sys_vtx_temp_pos = 461
+set osd_displayport_device = MSP
+set osd_canvas_width = 50
+set osd_canvas_height = 18
+set vtx_band = 5
+set vtx_channel = 1
+set vtx_power = 3
+set vtx_freq = 5658
+set vcd_video_system = HD
+set rpm_filter_fade_range_hz = 100
+set stats_total_flights = 35
+set stats_total_time_s = 4220
+set craft_name = Mover 2
+
+profile 0
+
+# profile 0
+set dterm_lpf1_dyn_expo = 7
+set iterm_relax_cutoff = 20
+set iterm_limit = 500
+set pidsum_limit_yaw = 1000
+set throttle_boost = 2
+set p_pitch = 41
+set i_pitch = 89
+set d_pitch = 40
+set f_pitch = 137
+set p_roll = 38
+set i_roll = 81
+set d_roll = 35
+set f_roll = 125
+set d_min_roll = 21
+set d_min_pitch = 23
+set feedforward_averaging = 2_POINT
+set feedforward_smooth_factor = 65
+set feedforward_jitter_factor = 3
+set feedforward_boost = 18
+set feedforward_max_rate_limit = 100
+set simplified_pids_mode = RP
+set simplified_i_gain = 120
+set simplified_d_gain = 70
+set simplified_pi_gain = 85
+set simplified_dmax_gain = 200
+set simplified_feedforward_gain = 105
+set simplified_pitch_pi_gain = 105
+set tpa_rate = 70
+set tpa_breakpoint = 1250
+
+profile 1
+
+profile 2
+
+profile 3
+
+# restore original profile selection
+profile 0
+
+rateprofile 0
+
+# rateprofile 0
+set rateprofile_name = cine
+set roll_rc_rate = 2
+set pitch_rc_rate = 2
+set yaw_rc_rate = 2
+set roll_srate = 25
+set pitch_srate = 25
+set yaw_srate = 25
+
+rateprofile 1
+
+# rateprofile 1
+set rateprofile_name = race
+set roll_rc_rate = 45
+set pitch_rc_rate = 45
+set yaw_rc_rate = 45
+set roll_srate = 45
+set pitch_srate = 45
+set yaw_srate = 45
+set throttle_limit_type = SCALE
+set throttle_limit_percent = 70
+
+rateprofile 2
+
+# rateprofile 2
+set rateprofile_name = freestyl
+set roll_rc_rate = 40
+set pitch_rc_rate = 40
+set yaw_rc_rate = 40
+set roll_srate = 70
+set pitch_srate = 70
+set yaw_srate = 70
+
+rateprofile 3
+
+# restore original rateprofile selection
+rateprofile 1
+
+# save configuration
+save
+# 

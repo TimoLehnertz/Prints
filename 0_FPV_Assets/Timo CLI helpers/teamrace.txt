@@ -1,0 +1,23 @@
+teamrace:
+
+6 Position switch on Aux channel 4 (global 8)
+
+
+# Kopter 1
+vtx 0 3 0 0 1 900 1050
+vtx 1 3 0 0 3 1050 2100
+
+# Kopter 2
+vtx 0 3 0 0 3 900 1050
+vtx 1 3 0 0 1 1050 1300
+vtx 2 3 0 0 3 1300 2100
+
+# Kopter 3
+vtx 0 3 0 0 3 900 1300
+vtx 1 3 0 0 1 1300 1500
+vtx 2 3 0 0 3 1500 2100
+
+# Kopter 4
+vtx 0 3 0 0 3 900 1500
+vtx 1 3 0 0 1 1500 1700
+vtx 2 3 0 0 3 1700 2100

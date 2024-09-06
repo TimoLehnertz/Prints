@@ -1,0 +1,193 @@
+# 
+
+# diff all
+
+# version
+# Betaflight / STM32F405 (S405) 4.4.3 Nov 14 2023 / 16:32:58 (738127e7e) MSP API: 1.45
+
+# config: YES
+
+# start the command batch
+batch start
+
+# reset configuration to default settings
+defaults nosave
+
+board_name SPEEDYBEEF405MINI
+manufacturer_id SPBE
+mcu_id 0026003f3033471037323334
+signature 
+
+# name: Mover 1
+
+# feature
+feature ESC_SENSOR
+
+# serial
+serial 0 64 115200 57600 0 115200
+serial 1 0 115200 57600 0 115200
+serial 3 0 115200 57600 0 115200
+serial 5 2048 115200 57600 0 115200
+
+# beacon
+beacon RX_SET
+
+# aux
+aux 0 0 0 1700 2100 0 0
+aux 1 13 3 1700 2100 0 0
+aux 2 35 2 1700 2100 0 0
+aux 3 36 4 1700 2100 0 0
+aux 4 39 1 900 1300 0 0
+aux 5 49 2 1300 1700 0 0
+aux 6 51 2 900 1700 0 0
+
+# vtxtable
+vtxtable bands 5
+vtxtable channels 8
+vtxtable band 1 BOSCAM_A A FACTORY 5865 5845 5825 5805 5785 5765 5745 5725
+vtxtable band 2 BOSCAM_B B FACTORY 5733 5752 5771 5790 5809 5828 5847 5866
+vtxtable band 3 BOSCAM_E E FACTORY 5705 5685 5665 5645 5885 5905 5925 5945
+vtxtable band 4 FATSHARK F FACTORY 5740 5760 5780 5800 5820 5840 5860 5880
+vtxtable band 5 RACEBAND R FACTORY 5658 5695 5732 5769 5806 5843 5880 5917
+vtxtable powerlevels 4
+vtxtable powervalues 14 20 26 36
+vtxtable powerlabels 25 100 400 MAX
+
+# vtx
+vtx 0 5 5 0 0 900 900
+vtx 1 5 5 0 0 900 900
+vtx 2 5 5 1 0 900 1050
+vtx 3 5 5 2 0 1100 1150
+vtx 4 5 5 3 0 1250 1300
+vtx 5 5 5 4 0 1400 1450
+vtx 6 5 5 5 0 1550 1600
+vtx 7 5 5 6 0 1700 1750
+vtx 8 5 5 7 0 1850 1900
+vtx 9 5 5 8 0 1975 2100
+
+# rxfail
+rxfail 5 s 1000
+
+# master
+set gyro_lpf1_static_hz = 0
+set dyn_notch_count = 2
+set dyn_notch_q = 450
+set dyn_notch_min_hz = 125
+set dyn_notch_max_hz = 650
+set gyro_lpf1_dyn_min_hz = 500
+set gyro_lpf1_dyn_max_hz = 1000
+set acc_lpf_hz = 10
+set acc_calibration = 57,158,-27,1
+set baro_hardware = NONE
+set rc_smoothing_auto_factor = 25
+set rc_smoothing_auto_factor_throttle = 25
+set dshot_bidir = ON
+set motor_pwm_protocol = DSHOT300
+set yaw_motors_reversed = ON
+set small_angle = 180
+set pid_process_denom = 2
+set simplified_gyro_filter = OFF
+set report_cell_voltage = ON
+set osd_vbat_pos = 396
+set osd_link_quality_pos = 2433
+set osd_tim_2_pos = 2454
+set osd_throttle_pos = 2073
+set osd_craft_name_pos = 2059
+set osd_warnings_pos = 14602
+set osd_avg_cell_voltage_pos = 2412
+set osd_canvas_width = 30
+set osd_canvas_height = 13
+set vtx_band = 5
+set vtx_channel = 3
+set vtx_power = 1
+set vtx_freq = 5732
+set rpm_filter_fade_range_hz = 100
+set craft_name = Mover 1
+
+profile 0
+
+# profile 0
+set dterm_lpf1_dyn_expo = 7
+set iterm_relax_cutoff = 20
+set iterm_limit = 500
+set pidsum_limit_yaw = 1000
+set throttle_boost = 2
+set p_pitch = 41
+set i_pitch = 89
+set d_pitch = 40
+set f_pitch = 137
+set p_roll = 38
+set i_roll = 81
+set d_roll = 35
+set f_roll = 125
+set d_min_roll = 21
+set d_min_pitch = 23
+set feedforward_averaging = 2_POINT
+set feedforward_smooth_factor = 65
+set feedforward_jitter_factor = 3
+set feedforward_boost = 18
+set feedforward_max_rate_limit = 100
+set dyn_idle_min_rpm = 40
+set dyn_idle_p_gain = 35
+set simplified_pids_mode = RP
+set simplified_i_gain = 120
+set simplified_d_gain = 70
+set simplified_pi_gain = 85
+set simplified_dmax_gain = 200
+set simplified_feedforward_gain = 105
+set simplified_pitch_pi_gain = 105
+set tpa_rate = 70
+set tpa_breakpoint = 1250
+
+profile 1
+
+profile 2
+
+profile 3
+
+# restore original profile selection
+profile 0
+
+rateprofile 0
+
+# rateprofile 0
+set rateprofile_name = cine
+set roll_rc_rate = 2
+set pitch_rc_rate = 2
+set yaw_rc_rate = 2
+set roll_srate = 25
+set pitch_srate = 25
+set yaw_srate = 25
+
+rateprofile 1
+
+# rateprofile 1
+set rateprofile_name = race
+set roll_rc_rate = 45
+set pitch_rc_rate = 45
+set yaw_rc_rate = 45
+set roll_srate = 45
+set pitch_srate = 45
+set yaw_srate = 45
+set throttle_limit_type = SCALE
+set throttle_limit_percent = 85
+
+rateprofile 2
+
+# rateprofile 2
+set rateprofile_name = freestyl
+set roll_rc_rate = 50
+set pitch_rc_rate = 50
+set yaw_rc_rate = 50
+set roll_srate = 70
+set pitch_srate = 70
+set yaw_srate = 70
+
+rateprofile 3
+
+# restore original rateprofile selection
+rateprofile 1
+
+# save configuration
+save
+# 

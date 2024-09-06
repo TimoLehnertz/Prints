@@ -1,0 +1,5 @@
+2 * camera plate
+3 * guard front
+6 * motor bottom
+6 * motor top
+14 * vertical plate

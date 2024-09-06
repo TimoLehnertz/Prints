@@ -1,0 +1,97 @@
+# 
+
+# diff all
+
+# version
+# Betaflight / STM32F745 (S745) 4.2.11 Nov  9 2021 / 20:29:04 (948ba6339) MSP API: 1.43
+# config: manufacturer_id: HBRO, board_name: KAKUTEF7HDV, version: cc8e118f, date: 2020-03-04T02:37:20Z
+
+# start the command batch
+batch start
+
+# reset configuration to default settings
+defaults nosave
+
+board_name KAKUTEF7HDV
+manufacturer_id HBRO
+mcu_id 0030004e3039511434383332
+signature 
+
+# name: Sheesh
+
+# feature
+feature GPS
+
+# serial
+serial 1 2 115200 57600 0 115200
+serial 2 1 115200 57600 0 115200
+serial 3 64 115200 57600 0 115200
+serial 5 0 115200 57600 0 115200
+
+# aux
+aux 0 0 0 1825 2100 0 0
+aux 1 1 1 1525 1650 0 0
+aux 2 2 1 1750 1850 0 0
+aux 3 13 0 1300 1700 0 0
+aux 4 35 2 1800 2100 0 0
+aux 5 49 3 1900 2100 0 0
+
+# master
+set acc_calibration = 67,17,-258,1
+set baro_hardware = AUTO
+set serialrx_provider = CRSF
+set yaw_motors_reversed = ON
+set gps_provider = UBLOX
+set report_cell_voltage = ON
+set osd_rssi_pos = 2459
+set osd_tim_2_pos = 146
+set osd_flymode_pos = 2517
+set osd_g_force_pos = 330
+set osd_current_pos = 2533
+set osd_mah_drawn_pos = 2501
+set osd_craft_name_pos = 2068
+set osd_gps_speed_pos = 2051
+set osd_gps_lon_pos = 2112
+set osd_gps_lat_pos = 2080
+set osd_gps_sats_pos = 2048
+set osd_home_dir_pos = 2286
+set osd_home_dist_pos = 2055
+set osd_altitude_pos = 2542
+set osd_warnings_pos = 14633
+set osd_avg_cell_voltage_pos = 2537
+set osd_nvario_pos = 2512
+set osd_flip_arrow_pos = 2254
+set gyro_1_align_yaw = 2700
+set name = Sheesh
+
+profile 0
+
+profile 1
+
+# profile 1
+set p_pitch = 50
+set p_roll = 47
+
+profile 2
+
+# restore original profile selection
+profile 1
+
+rateprofile 0
+
+rateprofile 1
+
+rateprofile 2
+
+rateprofile 3
+
+rateprofile 4
+
+rateprofile 5
+
+# restore original rateprofile selection
+rateprofile 0
+
+# save configuration
+save
+# 
