@@ -1,0 +1,153 @@
+defaults nosave
+
+
+# version
+# Betaflight / STM32F7X2 (S7X2) 4.6.0 Jul 25 2025 / 15:56:37 (ddb0c667f) MSP API: 1.47
+# config rev: 95b1058
+
+# start the command batch
+batch start
+
+# reset configuration to default settings
+defaults nosave
+
+board_name HGLRCF722
+manufacturer_id HGLR
+mcu_id 002500325631500220303937
+signature 
+
+# resources
+resource SERVO 1 A08
+resource SERVO 2 A00
+resource LED_STRIP 1 NONE
+resource SERIAL_TX 4 NONE
+
+# feature
+feature LED_STRIP
+feature OSD
+
+# serial
+serial UART2 64 115200 57600 0 115200
+
+# mixer
+mixer CUSTOMAIRPLANE
+mmix 0  1.000  0.000  0.000 -0.300
+mmix 1  1.000  0.000  0.000  0.300
+
+# servo
+servo 2 1000 2000 1500 -100 -1
+
+# servo mixer
+smix 0 2 0 100 0 0 100 0
+smix 1 3 1 100 0 0 100 0
+
+# beacon
+beacon RX_SET
+
+# aux
+aux 0 0 0 1700 2100 0 0
+aux 1 1 2 1700 2100 0 0
+aux 2 2 2 1300 1700 0 0
+aux 3 13 5 1700 2100 0 0
+aux 4 36 4 1700 2100 0 0
+aux 5 51 1 900 1675 0 0
+
+# master
+set dyn_notch_min_hz = 80
+set acc_calibration = 72,32,45,1
+set small_angle = 180
+set gps_use_3d_speed = ON
+set yaw_deadband = 50
+set spa_roll_mode = I_FREEZE
+set spa_pitch_mode = I_FREEZE
+set yaw_type = DIFF_THRUST
+set report_cell_voltage = ON
+
+profile 0
+
+# profile 0
+set dterm_lpf1_dyn_min_hz = 90
+set dterm_lpf1_dyn_max_hz = 180
+set dterm_lpf1_static_hz = 0
+set dterm_lpf2_type = PT2
+set dterm_lpf2_static_hz = 180
+set anti_gravity_gain = 0
+set iterm_relax_type = GYRO
+set iterm_relax_cutoff = 2
+set pidsum_limit = 1000
+set throttle_boost = 0
+set p_pitch = 62
+set i_pitch = 27
+set d_pitch = 62
+set f_pitch = 250
+set p_roll = 22
+set i_roll = 31
+set d_roll = 29
+set f_roll = 250
+set p_yaw = 90
+set i_yaw = 0
+set d_yaw = 250
+set f_yaw = 0
+set angle_earth_ref = 0
+set d_max_pitch = 0
+set feedforward_smooth_factor = 30
+set feedforward_jitter_factor = 9
+set simplified_pids_mode = OFF
+set simplified_master_multiplier = 200
+set simplified_d_gain = 50
+set simplified_pi_gain = 50
+set simplified_feedforward_gain = 200
+set simplified_pitch_d_gain = 50
+set simplified_pitch_pi_gain = 50
+set simplified_dterm_filter_multiplier = 120
+set tpa_mode = PD
+set tpa_rate = 60
+set tpa_breakpoint = 1400
+set tpa_low_rate = 0
+set tpa_low_always = ON
+set tpa_speed_type = ADVANCED
+set tpa_speed_basic_delay = 829
+set tpa_speed_basic_gravity = 49
+set tpa_speed_adv_prop_pitch = 699
+set tpa_speed_adv_drag_k = 80
+set tpa_speed_adv_thrust = 5618
+set tpa_speed_pitch_offset = 88
+set tpa_curve_type = HYPERBOLIC
+set tpa_curve_stall_throttle = 10
+set tpa_curve_pid_thr0 = 500
+set tpa_curve_expo = 30
+set spa_roll_center = 250
+set spa_roll_width = 100
+set spa_pitch_center = 250
+set spa_pitch_width = 100
+set spa_yaw_center = 100
+
+profile 1
+
+profile 2
+
+profile 3
+
+# restore original profile selection
+profile 0
+
+rateprofile 0
+
+# rateprofile 0
+set roll_rc_rate = 30
+set pitch_rc_rate = 30
+set yaw_rc_rate = 30
+set roll_srate = 50
+set pitch_srate = 50
+set yaw_srate = 50
+
+rateprofile 1
+
+rateprofile 2
+
+rateprofile 3
+
+# restore original rateprofile selection
+rateprofile 0
+
+# save configuration
